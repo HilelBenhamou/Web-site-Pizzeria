@@ -1,0 +1,229 @@
+/*ELEMENT PRINCIPAUX DE LA PAGE*/
+
+body
+{
+    background: url(images/fond.jpg);
+    background-attachment: fixed;
+    font-family: Marko One, sans-serif;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: black; 
+}
+
+#bloc_page
+{
+    width: 1500px;
+    margin: auto;
+    padding:auto 10px;
+}
+
+@media screen and (max-width: 800px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    
+    nav 
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+    
+    #footer
+    {
+        width: auto;
+        flex-direction: column; 
+    }
+    #contact
+    {
+         
+    }
+    #banniere
+    {
+        display: none;
+    }
+    
+    
+}
+
+@media screen and (max-width: 2048px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    
+}
+
+
+/*HEADER*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+header h1
+{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 100%.;
+    padding: 10px;
+    margin-right:auto;
+    margin-bottom:10px;
+    margin-left: 5px;
+}
+
+header li
+{
+    list-style-type: none;
+}
+
+/*NAVIGATION*/
+
+header nav ul 
+{
+    display: flex;
+}
+
+header nav li
+{
+    border-right: 3px solid black;
+    padding-right: 50px;
+    margin-right: 80px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px
+}
+
+header nav li :hover
+{
+    color: red;
+}
+
+/*BANNIERE*/
+
+#banniere
+{
+    width:  100%;
+    margin: auto;
+    padding: 2px;
+    
+}
+
+/*SECTION PIZZA*/
+#pizza
+{
+    
+}
+
+#pizza li
+{
+    list-style-type: none;
+    height: 75px;
+}
+
+
+/*SECTION PASTA*/
+
+#pasta
+{
+    
+}
+
+#pasta li
+{
+    list-style-type: none;
+    height: 75px;
+    
+}
+
+/*VOTRE PLAT*/
+
+#votreplat
+{
+    
+}
+
+/*FOOTER*/
+
+#footer
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    width: 100%;
+    margin-top: 100px; 
+    
+}
+
+#contact
+{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 15px;
+    margin: 10px;
+}
+#contact h1
+{
+    text-align: center;
+}
+
+#contact li 
+{
+    font-size: 15px;
+}
+
+ #formulaire
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 15px;
+    margin: 10px;
+}
+#formulaire h1
+{
+    text-align: center;
+}
+
+#formulaire label
+{
+    font-size: 15px;
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+#createur
+{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 15px;
+    margin: 10px;
+}
+
+#createur h1
+{
+    text-align: center;
+}
